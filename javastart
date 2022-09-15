@@ -26,7 +26,9 @@
 </head>
 <body>
     <h1>WITAMY</h1>
-    <div>
+    <div class="tab">
+        <div><img src="https://images.pexels.com/photos/1526713/pexels-photo-1526713.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></div>
+
 
     </div>
 </body>
