@@ -11,25 +11,18 @@
         background-image:url(https://wallpaper.dog/large/20537530.jpg); 
         background-attachment:fixed;}
 
-    .tab  {
-        grid-template-columns: 30%;
-        grid-template-rows: 30%;
-        grid-template-areas: 
-        'a w'
-        'a w'
-        'a p'
-        ;
-        border:4px black;
-    }
-    
+        h1 {color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 </style>
 </head>
 <body>
-    <h1>WITAMY</h1>
-    <div class="tab">
-        <div><img src="https://images.pexels.com/photos/1526713/pexels-photo-1526713.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></div>
-
-
-    </div>
+    <script>
+    let a = prompt('podaj liczbe') ;
+    let b = prompt('podaj liczbe') ;
+        let wynik=parseFloat(a)+parseFloat(b)
+    console.log('wynik:' + wynik )
+    document.write('wynik: '+ wynik)
+    alert(wynik)
+    </script>
+  
 </body>
 </html>
