@@ -10,19 +10,43 @@
     body {
         background-image:url(https://wallpaper.dog/large/20537530.jpg); 
         background-attachment:fixed;}
+        
+               p {color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 10em;}
+         </style>
 
-        h1 {color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-</style>
 </head>
 <body>
+    </body>
+    <p>
+    
     <script>
-    let a = prompt('podaj liczbe') ;
-    let b = prompt('podaj liczbe') ;
-        let wynik=parseFloat(a)+parseFloat(b)
-    console.log('wynik:' + wynik )
-    document.write('wynik: '+ wynik)
-    alert(wynik)
+
+
+
+    let a = prompt('podaj liczbe') 
+    let b = prompt('podaj liczbe') 
+    let znak = prompt('podaj znak') 
+    let wynik ;
+
+    switch (znak) {
+    case '+' : wynik=parseFloat(a)+parseFloat(b)
+break
+    case '-' : wynik=parseFloat(a)-parseFloat(b)
+break 
+    case '*' : wynik=parseFloat(a)*parseFloat(b)
+break 
+    case '/' : wynik=parseFloat(a)/parseFloat(b)
+default:
+    wynik='nie znam działania'}
+    // if(znak ==='+') {wynik = parseFloat(a)+parseFloat(b)} 
+    //     else if (znak === '-') {wynik=parseFloat(a)-parseFloat(b)} 
+    //     else if (znak === '*') {wynik=parseFloat(a)*parseFloat(b)}
+    //     else if (znak === '/') {wynik=parseFloat(a)/parseFloat(b)} 
+    console.log('wynik:' + wynik ) ;
+    alert ('końcowy wyniik = ' + wynik) ;
+    document.write ('koncowy wynik: ' + wynik)
     </script>
-  
+</p>  
 </body>
+
 </html>
