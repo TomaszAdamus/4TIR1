@@ -1,14 +1,16 @@
 # 4TIR1
 
 
-Wyzwanie JavaScript od podstaw z Samurajem Programowania (bedeprogramistka.pl)
+https://bedeprogramistka.pl/wyzwanie-javascript-od-podstaw/
 
-Learn to Code — For Free — Coding Courses for Busy People (freecodecamp.org)
 
-JavaScript Algorithms and Data Structures Certification | freeCodeCamp.org
+https://www.freecodecamp.org/learn/
 
+
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
 https://www.sololearn.com/
+https://github.com/myjinxin2015/Katas-list-of-Training-JS-series
 
 GitHub - myjinxin2015/Katas-list-of-Training-JS-series: Katas list of Training JS series
 
-Codewars - Achieve mastery through coding practice and developer mentorship
+https://www.codewars.com/
